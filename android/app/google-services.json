@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "661824116427",
+    "firebase_url": "https://belgrano-d4060.firebaseio.com",
+    "project_id": "belgrano-d4060",
+    "storage_bucket": "belgrano-d4060.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661824116427:android:badc814fb7a7f0d4",
+        "android_client_info": {
+          "package_name": "com.moebiusrealestate.belgrano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661824116427-lttpse8n1eskvf84opar352qj9k7nadr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ksAZa2sOVUfsDJ0YACMX0XL7X7uhXxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661824116427-lttpse8n1eskvf84opar352qj9k7nadr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661824116427:android:2328276348c81bea",
+        "android_client_info": {
+          "package_name": "com.moebiusrealestate.moebius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661824116427-lttpse8n1eskvf84opar352qj9k7nadr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ksAZa2sOVUfsDJ0YACMX0XL7X7uhXxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661824116427-lttpse8n1eskvf84opar352qj9k7nadr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
