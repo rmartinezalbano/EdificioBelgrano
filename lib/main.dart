@@ -5,6 +5,7 @@ import 'package:belgrano/scoped_models/main_model.dart';
 import './pages/home.dart';
 import './pages/contacto.dart';
 
+import './pages/edificio.dart';
 import './pages/pisos.dart';
 import './pages/exoneraciones.dart';
 import './pages/planos.dart';
@@ -32,7 +33,9 @@ class MyApp extends StatelessWidget {
         routes: {
           '/home': (BuildContext context) => HomePage(),
           '/contacto': (BuildContext context) => ContactoPage(),
-          '/edificio': (BuildContext context) => PisosPage(),
+          '/edificio': (BuildContext context) => EdificioPage(),
+          '/pisos': (BuildContext context) => PisosPage(),
+
           
           '/exoneraciones': (BuildContext context) => ExoneracionesPage(),
           '/planos': (BuildContext context) => PlanosPage(),

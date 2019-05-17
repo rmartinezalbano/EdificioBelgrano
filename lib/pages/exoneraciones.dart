@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
+import '../widgets/drawer.dart';
 
 import 'package:belgrano/scoped_models/main_model.dart';
 
@@ -18,49 +19,7 @@ class ExoneracionesPageState extends State<ExoneracionesPage> {
     return ScopedModelDescendant<MainModel>(
       builder: (BuildContext context, Widget child, MainModel model) {
         return Scaffold(
-          drawer: Drawer(
-            child: Column(
-              children: [
-                AppBar(
-                  automaticallyImplyLeading: false,
-                  title: Text('Edificio Belgrano'),
-                ),
-                ListTile(
-                  leading: Icon(Icons.home),
-                  title: Text('Inicio'),
-                  onTap: () => Navigator.pushReplacementNamed(context, '/home'),
-                ),
-                Divider(),
-                ListTile(
-                  leading: Icon(Icons.call),
-                  title: Text('Contacto'),
-                  onTap: () =>
-                      Navigator.pushReplacementNamed(context, '/contacto'),
-                ),
-                Divider(),
-                ListTile(
-                  leading: Icon(Icons.location_city),
-                  title: Text('Edificio'),
-                  onTap: () =>
-                      Navigator.pushReplacementNamed(context, '/edificio'),
-                ),
-                Divider(),
-                ListTile(
-              leading: Icon(Icons.grid_on),
-              title: Text('Planos'),
-              onTap: () => Navigator.pushReplacementNamed(context, '/planos'),
-            ),
-            Divider(),
-                ListTile(
-                  leading: Icon(Icons.account_balance),
-                  title: Text('Exoneraciones'),
-                  onTap: () =>
-                      Navigator.pushReplacementNamed(context, '/exoneraciones'),
-                ),
-                Divider(),
-              ],
-            ),
-          ),
+          drawer: DrawerPage(),
           appBar: AppBar(
             title: Text(
               'Exoneraciones',
@@ -96,9 +55,9 @@ class ExoneracionesPageState extends State<ExoneracionesPage> {
                     title: Text('Edificio',
                         style: TextStyle(color: Colors.black))),
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.account_balance),
-                    title: Text('Exoneraciones',
-                        style: TextStyle(color: Colors.black))),
+                      icon: Icon(Icons.view_quilt),
+                      title: Text('Pisos',
+                          style: TextStyle(color: Colors.black))),
               ]),
           body: ListView(
             children: [
